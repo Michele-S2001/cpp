@@ -56,8 +56,9 @@ void Library::removeBook(std::string _ISBN) {
     }  
   
     if(id_book_to_remove < books.size()) {
-      std::cout << books[id_book_to_remove].getTitle() << " -> e' stato rimosso dalla libreria" << "\n";
+      std::string title_book_removed = books[id_book_to_remove].getTitle();
       books.erase(books.begin() + id_book_to_remove);
+      std::cout << title_book_removed << " e' stato rimosso dalla libreria" << "\n";
     } else {
       std::cout << "Nessun libro trovato con questo codice ISBN" << "\n";
     }
