@@ -11,8 +11,7 @@ Library::Library(
 void Library::coutBooks() const {
   if(books.size() != 0) {
     std::cout << "Ecco lista aggiornata dei titoli presenti: " << "\n";
-    for (size_t i = 0; i < books.size(); i++)
-    {
+    for (size_t i = 0; i < books.size(); i++) {
       std::cout << "-> " << books[i].getTitle() << "\n";
     }  
   } else {
