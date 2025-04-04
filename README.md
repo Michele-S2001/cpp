@@ -8,7 +8,7 @@ All'interno troverai diverse cartelle, ognuna dedicata a un progetto o a un espe
 
 ## Obiettivo
 
-L'obiettivo di questa repo è esplorare il C++ attraverso codice pratico, testare nuove idee e consolidare la mia comprensione del linguaggio!
+L'obiettivo di questa repo è esplorare il C++ attraverso codice pratico, visto che mi ci sto approcciando da poco, testare nuove idee e consolidare la mia comprensione sia del linguaggio in se, ma soprattutto dei concetti che lo accomunano con gli altri linguaggi di basso livello!
 
 ---
 
