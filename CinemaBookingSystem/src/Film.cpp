@@ -42,14 +42,14 @@ void Film::setMinsDuration(uint16_t _minsDuration) {
 
 void Film::setLang(const std::string& _lang) {
   if(_lang.empty()) {
-    throw invalid_argument("La lingua non può essere vuota");
+    throw invalid_argument("La lingua non puo essere vuota");
   }
   lang = _lang;
 };
 
 void Film::setDirection(const std::string& _direction) {
   if(_direction.empty()) {
-    throw invalid_argument("La regia non può essere vuota");
+    throw invalid_argument("La regia non puo essere vuota");
   }
   direction = _direction;
 };
