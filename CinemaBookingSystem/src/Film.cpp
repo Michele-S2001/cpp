@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+int Film::nextID = 1;
+
 Film::Film(
   string _title,
   uint16_t _minsDuration,
