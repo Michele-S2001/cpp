@@ -2,9 +2,9 @@
 #include "../include/Film.h"
 
 using namespace std;
-int main() {
-  
-  cout << "Hello world" << endl;
+int main() {  
+  cout << "Cinema Booking System" << endl;
+  cout << "---------------------" << endl;
 
   Film film1 (
     "Attacco improvviso",
@@ -14,8 +14,6 @@ int main() {
   );  
   
   film1.getFilmDetails();
-
-
 
 
   return 0;
