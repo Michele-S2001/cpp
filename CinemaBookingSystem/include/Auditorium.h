@@ -18,4 +18,5 @@ class Auditorium {
 
     uint16_t getRowsNum();
     uint16_t getColumnsNum();
+    void getAuditoriumDetails();
 };

@@ -1,7 +1,7 @@
 #include "../include/Auditorium.h"
 #include <iostream>
-using namespace std;
 
+using namespace std;
 int Auditorium::auditorium_number = 0;
 
 Auditorium::Auditorium(
@@ -31,4 +31,7 @@ void Auditorium::setColumnsNum(const uint16_t _columns_num) {
 
 uint16_t Auditorium::getRowsNum() { return rows_num; };
 uint16_t Auditorium::getColumnsNum() { return columns_num; };
+void Auditorium::getAuditoriumDetails() {
+  cout << "La sala: " << ID << " ha " << rows_num << " file e " << columns_num << " colonne" << endl;
+}
 

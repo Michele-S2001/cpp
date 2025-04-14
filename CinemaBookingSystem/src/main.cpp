@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../include/Film.h"
+#include "../include/Auditorium.h"
 
 using namespace std;
 int main() {  
@@ -15,6 +16,9 @@ int main() {
   
   film1.getFilmDetails();
 
+
+  Auditorium aud1 (13, 18);
+  aud1.getAuditoriumDetails();
 
   return 0;
 }
