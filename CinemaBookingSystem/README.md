@@ -12,15 +12,15 @@ Creare un'applicazione console in C++ che permetta di gestire un sistema di pren
    - Metodi: mostra dettagli film.
 
 2. **Classe Sala 🛋️**  
-   - Proprietà: nome sala, numero di righe, numero di colonne.  
-   - Metodi: mostra mappa posti, verifica disponibilità, assegna posti.
+   - Proprietà: (ID) numero sala, numero di righe, numero di colonne.  
+   - Metodi: -.
 
 3. **Classe Proiezione ⏰**  
-   - Proprietà: film, sala, orario di proiezione.  
-   - Metodi: mostra dettagli proiezione.
+   - Proprietà: ID proiezione, fk_ID film, fk_ID sala, data e ora.  
+   - Metodi: mostra mappa posti, mostra dettagli proiezione.
 
 4. **Classe Prenotazione 🧾**  
-   - Proprietà: ID prenotazione, nome spettatore, proiezione, posti prenotati.  
+   - Proprietà: ID prenotazione, fk_ID proiezione, nominativo, posti prenotati.  
    - Metodi: mostra dettagli prenotazione.
 
 5. **Classe Cinema 📽️**  
@@ -44,7 +44,7 @@ Un semplice menu interattivo che consente di:
 - Visualizzare lo stato dei posti in una sala per una determinata proiezione.
 
 ---
-
+ 
 ### 🔥 Possibili Estensioni  
 ✅ Salvataggio e caricamento delle prenotazioni da file.  
 ✅ Supporto multi-sala e multi-orario.  
