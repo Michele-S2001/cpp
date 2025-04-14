@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-int Auditorium::auditorium_number = 0;
+int Auditorium::auditorium_number = 1;
 
 Auditorium::Auditorium(
   uint16_t _rows_num,

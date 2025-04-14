@@ -18,7 +18,9 @@ int main() {
 
 
   Auditorium aud1 (13, 18);
+  Auditorium aud2 (15, 20);
   aud1.getAuditoriumDetails();
+  aud2.getAuditoriumDetails();
 
   return 0;
 }
