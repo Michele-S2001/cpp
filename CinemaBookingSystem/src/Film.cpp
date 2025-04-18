@@ -5,10 +5,10 @@ using namespace std;
 int Film::nextID = 1;
 
 Film::Film(
-  string _title,
+  const string& _title,
   uint16_t _minsDuration,
-  string _lang,
-  string _direction
+  const string& _lang,
+  const string& _direction
 ) {
   ID = nextID++;
   setTitle(_title);
@@ -17,7 +17,7 @@ Film::Film(
   setDirection(_direction);
 }
 
-void Film::getFilmDetails() {
+void Film::getFilmDetails() const {
   cout << "Titolo: " << title << endl;
   cout << "Durata: " << minsDuration << endl;
   cout << "Lingua: " << lang << endl;
@@ -54,7 +54,8 @@ void Film::setDirection(const std::string& _direction) {
   direction = _direction;
 };
 
-string Film::getTitle() { return title; };
-uint16_t Film::getMinsDuration() { return minsDuration; };
-string Film::getLang() { return lang; };
-string Film::getDirection() { return direction; };
+string Film::getTitle() const { return title; };
+uint16_t Film::getMinsDuration() const { return minsDuration; };
+string Film::getLang() const { return lang; };
+string Film::getDirection() const { return direction; };
+int Film::getFilmID() const { return ID; };

@@ -11,12 +11,16 @@ class Auditorium {
     uint16_t columns_num;
 
   public:
-    Auditorium(uint16_t _rows_num, uint16_t _columns_num);
+    Auditorium(
+      const uint16_t _rows_num,
+      const uint16_t _columns_num
+    );
 
     void setRowsNum(const uint16_t _rows_num);
     void setColumnsNum(const uint16_t _columns_num);
 
-    uint16_t getRowsNum();
-    uint16_t getColumnsNum();
-    void getAuditoriumDetails();
+    uint16_t getRowsNum() const;
+    uint16_t getColumnsNum() const;
+    void getAuditoriumDetails() const;
+    int getAuditoriumID() const;
 };

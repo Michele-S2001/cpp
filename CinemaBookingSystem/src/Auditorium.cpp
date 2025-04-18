@@ -5,8 +5,8 @@ using namespace std;
 int Auditorium::auditorium_number = 1;
 
 Auditorium::Auditorium(
-  uint16_t _rows_num,
-  uint16_t _columns_num
+  const uint16_t _rows_num,
+  const uint16_t _columns_num
 ) {
   ID = auditorium_number++;
   setRowsNum(_rows_num);
@@ -29,9 +29,9 @@ void Auditorium::setColumnsNum(const uint16_t _columns_num) {
   columns_num = _columns_num;
 }
 
-uint16_t Auditorium::getRowsNum() { return rows_num; };
-uint16_t Auditorium::getColumnsNum() { return columns_num; };
-void Auditorium::getAuditoriumDetails() {
+uint16_t Auditorium::getRowsNum() const { return rows_num; };
+uint16_t Auditorium::getColumnsNum() const { return columns_num; };
+void Auditorium::getAuditoriumDetails() const {
   cout << "La sala: " << ID << " ha " << rows_num << " file e " << columns_num << " colonne" << endl;
-}
-
+};
+int Auditorium::getAuditoriumID() const { return ID; };
