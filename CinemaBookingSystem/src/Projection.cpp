@@ -36,7 +36,7 @@ void Projection::setFilmID(
       return;
     }    
   }
-  throw invalid_argument("L'id film inserito per la proiezione, non è valido o esistente");
+  throw invalid_argument("L'id film inserito per la proiezione, non e' valido o esistente");
 };
 
 void Projection::setAuditoriumID(
@@ -52,7 +52,7 @@ void Projection::setAuditoriumID(
       return;
     }    
   }
-  throw invalid_argument("L'id sala inserito per la proiezione, non è valido o esistente");
+  throw invalid_argument("L'id sala inserito per la proiezione, non e' valido o esistente");
 };
 
 void Projection::setDateTime(const std::string& _date, const std::string& _time) {
