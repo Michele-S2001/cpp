@@ -11,7 +11,7 @@ class Projection {
     int ID;
     int film_ID;
     int auditorium_ID;
-    string& date_time;
+    string date_time;
 
   public:
     Projection(
