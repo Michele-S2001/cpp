@@ -71,7 +71,7 @@ void Projection::setDateTime(const std::string& _date, const std::string& _time)
 };
 
 void Projection::getProjectionDetails() const {
-  cout << "ID film: " << film_ID << endl;
+  cout << "Film: " << film_ID << endl;
   cout << "Sala: " << auditorium_ID << endl;
   cout << "Date e ora: " << date_time << endl;
 }
