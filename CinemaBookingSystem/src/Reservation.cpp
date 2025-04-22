@@ -46,5 +46,5 @@ void Reservation::setProjectionID(
 }
 
 void Reservation::setResearvedSeats(const vector<string>& _researved_seats) {
-
+  //TODO: AGGIUNGERE PARAMS: lista prenotazioni, lista proiezioni
 }; 
