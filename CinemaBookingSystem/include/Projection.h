@@ -28,4 +28,6 @@ class Projection {
     void setFilmID(const int _film_ID, const std::vector<Film>& filmList);
     void setAuditoriumID(const int _auditorium_ID, const std::vector<Auditorium>& auditoriumList);
     void setDateTime(const string& _date, const string& _time);
+
+    int getProjectionID() const;
 };

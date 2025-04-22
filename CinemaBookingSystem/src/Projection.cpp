@@ -75,3 +75,7 @@ void Projection::getProjectionDetails() const {
   cout << "Sala: " << auditorium_ID << endl;
   cout << "Date e ora: " << date_time << endl;
 }
+
+int Projection::getProjectionID() const {
+  return ID;
+}
